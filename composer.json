@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "websupply/seeder",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSupply\\Seeder\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebSupply.Seeder"
+        }
+    }
+}
